@@ -1,0 +1,16 @@
+.main{
+    height: 100%;
+    display: flex;
+    place-items: center;
+    place-content: center;
+    flex-direction: column;
+}
+
+.input {
+    display: block;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #656565;
+    color:#656565;
+}

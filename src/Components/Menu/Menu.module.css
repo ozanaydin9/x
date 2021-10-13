@@ -1,0 +1,28 @@
+.main{
+    display: flex;
+    place-content: flex-end;
+    flex-direction: column;
+}
+
+.menuItem {
+    display: block;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color:#656565;
+    cursor: pointer;
+}
+
+.menuItem:hover{
+    color: #949393;
+}
+
+.menu{
+    display: flex;
+    margin-bottom: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    justify-content: space-around;
+}
+
