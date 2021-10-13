@@ -31,8 +31,8 @@ const Home = () => {
     return(
         <>
             <div className={styles.main}>
-                <input onChange={usernameChange} placeholder={"username"} type="text" className={styles.input}/><br/>
-                <input onChange={passwordChange} placeholder={"password"} type="text" className={styles.input}/>
+                <input onChange={usernameChange} placeholder={"username"} type="password" className={styles.input}/><br/>
+                <input onChange={passwordChange} placeholder={"password"} type="password" className={styles.input}/>
             </div>
 
         </>
